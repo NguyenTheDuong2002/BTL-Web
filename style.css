@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+    font-size: 12px;
+    color: white;
+    height: 500px;
+    background-color: rgb(70, 162, 238);
+}
+.header .hotline,
+.header .mail,
+.header .fb{
+    margin-top: 7px;
+    width: 15px;
+}
+.header .bell{
+    margin-top: 9px;
+    width: 15px;
+}
+.header .support,
+.header .login{
+    width: 18px;
+    margin-top: 7px;
+}
+.header .hotline1,
+.header .mail1,
+.header .fb1,
+.header .bell1,
+.header .support1,
+.header .login1{
+    float: left;
+}
+.header .fb1{
+    margin-left: -6px;
+}
+
+.headerleft{
+    margin-left: -140px;
+    padding-left: 0px;
+    display: inline-block;
+}
+.headerleft >li{
+    margin-right: 10px;
+    float: left;
+    list-style: none;
+    margin-top: 8px;
+}
+.headerleft >li >a,
+.headerright li a{
+    color: white;
+    text-decoration: none;
+}
+.headerright{
+    float: right;
+    right: 0;
+}
+.headerright li{
+    right: 0;
+    margin: 10px 10px 10px 0;
+    float: left;
+    list-style: none;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 50px;
+    float: left;
+}
+.logo p{
+    margin-left: 89px;
+    margin-top: -22px;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-family: cursive;
+}
+.img-logo{
+    width: 100px;
+}
+
+input#search{
+    width: 380px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.search-ic{
+    background-color: #fff;
+    color: red;
+    font-size: 15.5px;
+    margin-top: 40.5px;
+    margin-left: 2px;
+    padding: 2px;
+    text-decoration: none;
+    border-radius: 2px;
+    float: left;
+}
+.cart{
+    margin-top: 38px;
+    margin-left: 28px;
+    width: 22px;
+}
